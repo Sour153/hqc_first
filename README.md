@@ -1,5 +1,5 @@
 # hqc_memcpy
-===============================================
+=============================================
 The purpose of this project is to test the rate 
 change of memcpy function with ARRAY_SIZE in 
 Ubuntu 18.04.4 under a single thread in a 
@@ -7,7 +7,7 @@ virtual machine, and to compare the bandwidth rate
 growth of three different optimization schemes.
 The project contributes to a deeper understanding 
 of computer storage architecture
-===============================================
+=============================================
 * 1.memcpy1:Single-byte copy: This is a standard 
   generic implementation of memcpy, but the performance 
   is very low because while can only copy one byte 
@@ -34,5 +34,5 @@ of computer storage architecture
   because in the same clock cycle, the data accessed by 
   the CPU is always accessed in 32-bit alignment. 
   Corresponding test results mem_Rate4;
-===============================================
+=============================================
 LAST UPDATE: November 18 2023
